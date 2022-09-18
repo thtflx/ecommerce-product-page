@@ -20,6 +20,7 @@
 
 <body>
 
+    <!-- SITE-HEADER -->
     <header class="site-header">
         <div class="container">
             <div class="site-header__container">
@@ -70,7 +71,7 @@
                                     <ul class="shopping-cart-products">
                                         <li class="shopping-cart-products__item">
                                             <div class="item-shopping-cart-products">
-                                                <img class="item-shopping-cart-products__img" src="img/sneakers-mini.jpg" alt="Simple sneakers" width="50" height="50" srcset="img/sneakers-mini.jpg 1x, img/sneakers-mini@2x.jpg 2x">
+                                                <img class="item-shopping-cart-products__img" src="img/shopping-cart-item-img.jpg" alt="Simple sneakers" width="50" height="50" srcset="img/shopping-cart-item-img.jpg 1x, img/shopping-cart-item-img@2x.jpg 2x">
                                                 <div class="item-shopping-cart-products__info">
                                                     <div class="item-shopping-cart-products__name">Fall Limited Edition Sneakers</div>
                                                     <div class="item-shopping-cart-products__cost">$125.00 x 3 <b class="item-shopping-cart-products__subtotal">$375.00</b></div>
@@ -101,6 +102,51 @@
         </div>
     </header>
 
+
+    <!-- MAIN-CONTENT -->
+    <main class="main-content">
+        <!-- PRODUCT-PAGE -->
+        <section class="product-page">
+            <div class="product-page__container container">
+                <!-- PRODUCT-PAGE-GALLERY -->
+                <div class="product-page__gallery">
+                    <!-- IMG-SHOWCASE -->
+                    <div class="img-showcase">
+                        <div class="img-showcase__showcase">
+                            <img class="img-showcase__active-img" src="img/sneakers-1.jpg" srcset="img/sneakers-1.jpg 1x, img/sneakers-1@2x.jpg 2x" alt="Fall limited edition sneakers" width="445" height="445">
+                        </div>
+
+                        <!-- thumbnails -->
+                        <ul class="img-showcase__thumbnails">
+                            <li class="img-showcase__thumbnail img-showcase__thumbnail--active">
+                                <button class="img-showcase__thumbnail-button" type="button" aria-label="img 1">
+                                    <img class="img-showcase__thumbnail-img" src="img/sneakers-1-thumbnail.jpg" alt="Sneakers 1" width="88" height="88" srcset="img/sneakers-1-thumbnail.jpg 1x, img/sneakers-1-thumbnail@2x.jpg 2x">
+                                </button>
+                            </li>
+                            <li class="img-showcase__thumbnail">
+                                <button class="img-showcase__thumbnail-button" type="button" aria-label="img 2">
+                                    <img class="img-showcase__thumbnail-img" src="img/sneakers-2-thumbnail.jpg" alt="Sneakers 2" width="88" height="88" srcset="img/sneakers-2-thumbnail.jpg 1x, img/sneakers-2-thumbnail@2x.jpg 2x">
+                                </button>
+                            </li>
+                            <li class="img-showcase__thumbnail">
+                                <button class="img-showcase__thumbnail-button" type="button" aria-label="img 3">
+                                    <img class="img-showcase__thumbnail-img" src="img/sneakers-3-thumbnail.jpg" alt="Sneakers 3" width="88" height="88" srcset="img/sneakers-3-thumbnail.jpg 1x, img/sneakers-3-thumbnail@2x.jpg 2x">
+                                </button>
+                            </li>
+                            <li class="img-showcase__thumbnail">
+                                <button class="img-showcase__thumbnail-button" type="button" aria-label="img 4">
+                                    <img class="img-showcase__thumbnail-img" src="img/sneakers-4-thumbnail.jpg" alt="Sneakers 4" width="88" height="88" srcset="img/sneakers-4-thumbnail.jpg 1x, img/sneakers-4-thumbnail@2x.jpg 2x">
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- PRODUCT-PAGE-INFO -->
+                <div class="product-page-info">Info</div>
+            </div>
+        </section>
+    </main>
 
     <script src="js/main.js"></script>
 </body>
